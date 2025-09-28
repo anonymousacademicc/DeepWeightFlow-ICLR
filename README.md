@@ -51,25 +51,26 @@ python generateModelsCode/{file_name}.py
 
 ### Project File Structure
 ```
-├── flow-matching-weights
-│ ├── train_and_generate.py
-│ ├── flow_matching.py
-│ ├── models.py
-│ ├── utils.py
-│ ├── permutation_specs.py
-│ ├── canonicalization.py
-│ ├── constants.json
-| ├── transfer_learning_Resnet18
-│ └── README.md
+.
+├── flowmatching
+│   ├── canonicalization.py
+│   ├── constants.json
+│   ├── flow_matching.py
+│   ├── gitrebasin.py
+│   ├── models.py
+│   ├── permutation_specs.py
+│   ├── train_and_generate.py
+│   ├── transfer_learning_Resnet18.py
+│   └── utils.py
 ├── generateModelsCode
-│   ├── generate_fashion_mnist_weights.py
-│   ├── generate_iris_weights.py
-│   ├── generate_mnist_weights.py
-│   ├── generateResnet18.py
-│   ├── generateVitData.py
-│   └── getImageNetWeightsResnet20.py
-└── LICENSE
-└── README.md
+│   ├── generate_fashion_mnist_weights.py
+│   ├── generate_iris_weights.py
+│   ├── generate_mnist_weights.py
+│   ├── generateResnet18.py
+│   ├── generateVitData.py
+│   └── getImageNetWeightsResnet20.py
+├── LICENSE
+├── README.md
 └── requirements.txt
 ```
 
