@@ -26,7 +26,7 @@ The system learns to generate functional neural network weights by:
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/anonymousacademicc/DeepWeightFlow-ICLR.git
-cd flow-matching-weights
+cd DeepWeightFlow-ICLR
 ```
 
 ### 2. Create a virtual environment
